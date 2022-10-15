@@ -1,0 +1,86 @@
+#home h1 {
+    font-size: 3rem;
+}
+
+#home p {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-items: center;
+    font-size: 1.0rem;
+}
+
+#contactus{
+    margin: 0.1rem 0.11rem;
+}
+
+#contactcard{
+    margin: 0.1rem 0.1rem;
+    padding: 0.1rem 0.1rem;
+}
+
+#contactcard form{
+    padding: 0.1rem 0.1rem;
+    margin: 0.9rem 0.9rem;
+}
+
+#contactcard form h1{
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+#contactcard input{
+    width: 50%;
+    height: 3rem;
+    padding: 4px;
+    margin: 5px 5px;
+}    
+
+#contactcard input:focus{
+    outline: none;
+}
+
+#contactcard textarea{
+    flex:1;
+    width: 50%;
+    max-width: 90%; 
+    max-height: 90%;
+} 
+
+#contactcard [type="button" i]{
+    width: 50%;
+} 
+
+#contactdetails h2,#contactdetails p{
+    width: 50%;
+}
+
+#contactdetails h2{
+    color: rgb(0, 0, 0);
+}
+
+#contactdetails p{ 
+    color: rgb(0, 0, 0);
+}
+
+.socialbtns{
+    width: 200px;
+    margin: 1rem 1rem;
+}
+
+.socialbtns a{
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1023px){
+    #contactdetails h2{
+        color: rgb(0, 0, 0);
+    }
+    
+    #contactdetails p{ 
+        color: rgb(0, 0, 0);
+    }
+
+    .socialbtns a{
+        color: rgb(0, 0, 0);
+    }
+}
